@@ -43,31 +43,50 @@ export const Banner = () => {
     }
 
     return (
-        <section className="banner" id="home">
-            <Container>
-                <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={7}>
-                        <TrackVisibility>
-                            {({ isVisible }) =>
-                                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <span className="tagline">Welcome to my Portfolio</span>
-                                    <h1>{`Hi I'm James! `}<span className="wrap">{text}</span></h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis similique ut nemo doloremque, ea maiores minima, deserunt, nulla nihil impedit omnis. Necessitatibus nisi ratione dicta, ipsum explicabo natus et quas.</p>
-                                    <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
-                                </div>
-                            }
-                        </TrackVisibility>
-                    </Col>
-                    <Col xs={12} md={6} xl={5}>
-                        <TrackVisibility>
-                            {({ isVisible }) =>
-                                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                                    <img src={headerImg} alt="Header Img" />
-                                </div>}
-                        </TrackVisibility>
-                    </Col>
-                </Row>
-            </Container>
-        </section>
+      <section className="banner" id="home">
+        <Container>
+          <Row className="align-items-center">
+            <Col xs={12} md={6} xl={7}>
+              <TrackVisibility>
+                {({ isVisible }) => (
+                  <div
+                    className={
+                      isVisible ? "animate__animated animate__fadeIn" : ""
+                    }
+                  >
+                    <span className="tagline">Welcome to my Portfolio</span>
+                    <h1>
+                      {`Hi I'm Sakshee! `}
+                      <span className="wrap">{text}</span>
+                    </h1>
+                    <p>
+                      Creative Web Designer skilled in crafting responsive,
+                      user-friendly websites using HTML, CSS, JavaScript, and
+                      Figma. Passionate about clean design and seamless user
+                      experiences.
+                    </p>
+                    <button onClick={() => console.log("connect")}>
+                      Let's connect <ArrowRightCircle size={25} />
+                    </button>
+                  </div>
+                )}
+              </TrackVisibility>
+            </Col>
+            <Col xs={12} md={6} xl={5}>
+              <TrackVisibility>
+                {({ isVisible }) => (
+                  <div
+                    className={
+                      isVisible ? "animate__animated animate__zoomIn" : ""
+                    }
+                  >
+                    <img src={headerImg} alt="Header Img" />
+                  </div>
+                )}
+              </TrackVisibility>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     );
 }

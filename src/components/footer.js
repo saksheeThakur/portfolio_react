@@ -16,11 +16,11 @@ export const Footer = () => {
                     </Col>
                     <Col sm={6} className="text-center text-sm-end">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/james-plamondon-369359bb/"><img src={navIcon1} /></a>
-                            <a href="https://www.facebook.com/james.plamondon74/"><img src={navIcon2} /></a>
-                            <a href=""><img src={navIcon3} /></a>
+                            <a href="https://www.linkedin.com"><img src={navIcon1} /></a>
+                            <a href="https://www.facebook.com"><img src={navIcon2} /></a>
+                            <a href="http://www.instagram.com"><img src={navIcon3} /></a>
                         </div>
-                        <p>Copyright 2022. All Right Reserved.</p>
+                        <p>Copyright 2025. All Right Reserved.</p>
                     </Col>
                 </Row>
             </Container>

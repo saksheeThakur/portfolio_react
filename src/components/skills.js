@@ -27,38 +27,43 @@ export const Skills = () => {
     };
 
     return (
-        <section className="skill" id="skills">
-            <Container>
-                <Row>
-                    <Col>
-                        <div className="skill-bx">
-                            <h2>
-                                Skills
-                            </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis similique ut nemo doloremque, ea maiores minima, deserunt, nulla nihil impedit omnis. Necessitatibus nisi ratione dicta, ipsum explicabo natus et quas.</p>
-                            <Carousel responsive={responsive} infinite={true} className="skill-slider">
-                                <div className="item">
-                                    <img src={meter1} alt="Image" />
-                                    <h5>Web Development</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter2} alt="Image" />
-                                    <h5>Brand Identity</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter3} alt="Image" />
-                                    <h5>Logo Design</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter1} alt="Image" />
-                                    <h5>Web Development</h5>
-                                </div>
-                            </Carousel>
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
-            <img className="background-image-left" src={colorSharp} />
-        </section>
+      <section className="skill" id="skills">
+        <Container>
+          <Row>
+            <Col>
+              <div className="skill-bx">
+                <h2>Skills</h2>
+                <p>
+                  Equipped with a strong design sense and technical proficiency,
+                  I bring the following skills to every project:
+                </p>
+                <Carousel
+                  responsive={responsive}
+                  infinite={true}
+                  className="skill-slider"
+                >
+                  <div className="item">
+                    <img src={meter1} alt="Image" />
+                    <h5>Web Development</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="Image" />
+                    <h5>Brand Identity</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter3} alt="Image" />
+                    <h5>Logo Design</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter1} alt="Image" />
+                    <h5>Web Development</h5>
+                  </div>
+                </Carousel>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+        <img className="background-image-left" src={colorSharp} />
+      </section>
     );
 }
