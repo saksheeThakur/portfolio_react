@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
-Sitemap: https://deploy-preview-1--sakshiportfoliomca.netlify.app/sitemap.xml
+Sitemap: https://sakshiportfoliomca.netlify.app/sitemap.xml
